@@ -48,4 +48,6 @@ function saveToDatabase() {
 
     // Display the JSON string
     console.log(json);
+
+    document.body.innerHTML = '<h1 style="font-size: 48px;">Thank you</h1>';
 }
