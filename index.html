@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borcelle Restraunt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="background"></div>
+  <div class="menu-container" id="menu-container-menu">
+    <h1>Borcelle Restraunt</h1>
+    <div class="menu-sections-container">
+      <div class="menu-section">
+        <div class="menu-section">
+          <h2>Starters</h2>
+          <div class="menu-columns">
+            <div class="menu-column">
+              <h3>Veg</h3>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-main-veg" value="Samosa Chat">
+                  Samosa Chat
+                  <span>Rs. 150</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-main-veg" value="Paneer Tikka">
+                  Paneer Tikka
+                  <span>Rs. 200</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-main-veg" value="Vegetable Spring Rolls">
+                  Vegetable Spring Rolls
+                  <span>Rs. 80</span>
+                </label>
+              </div>
+            </div>
+            <div class="menu-column">
+              <h3>Non-Veg</h3>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-main-non-veg" value="Chicken Tikka">
+                  Chicken Tikka
+                  <span>Rs. 180</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-main-non-veg" value="Fish Amritsari">
+                  Fish Amritsari
+                  <span>Rs. 220</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-main-non-veg" value="Pawn Fry">
+                  Pawn Fry
+                  <span>Rs. 150</span>
+                </label>
+              </div> <!-- Add more non-vegetarian items as needed -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat the above structure for other menu sections (Sides and Drinks) -->
+
+        <div class="menu-section">
+          <h2>Main Course</h2>
+          <div class="menu-columns">
+            <div class="menu-column">
+              <h3>Veg</h3>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-side-veg" value="Vegetable Biriyani">
+                  Vegetable Biriyani
+                  <span>Rs. 160</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-side-veg" value="Dal Makhani">
+                  Dal Makhani
+                  <span>Rs. 190</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-side-veg" value="Paneer Butter Masala">
+                  Paneer Butter Masala
+                  <span>Rs. 190</span>
+                </label>
+              </div> <!-- Add more vegetarian side items as needed -->
+            </div>
+            <div class="menu-column">
+              <h3>Non-Veg</h3>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-side-non-veg" value="Chicken Biriyani">
+                  Chicken Biriyani
+                  <span>Rs. 200</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-side-non-veg" value="Fish Curry">
+                  Fish Curry
+                  <span>Rs. 260</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-side-non-veg" value="Mutton Rogan Josh">
+                  Mutton Rogan Josh
+                  <span>Rs. 380</span>
+                </label>
+              </div> <!-- Add more non-vegetarian side items as needed -->
+            </div>
+          </div>
+        </div>
+
+  
+  
+         <div class="menu-section">
+            <h2 style="display: none;">Others</h2>
+            <div class="menu-columns">
+            <div class="menu-column">
+              <h3>Breads</h3>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-veg" value="Garlic Naan">
+                  Garlic Naan
+                  <span>Rs. 60</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-veg" value="Laccha Paratha">
+                  Laccha Paratha
+                  <span>Rs. 70</span>
+                </label>
+              </div>
+
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-veg" value="Butter Naan">
+                  Laccha Paratha
+                  <span>Rs. 70</span>
+                </label>
+              </div>
+               <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-veg" value="Roti (4 pcs.)">
+                  Roti (4 pcs.)
+                  <span>Rs. 40</span>
+                </label>
+              </div>             <!-- Add more vegetarian drink items as needed -->
+            </div>
+            <div class="menu-column">
+              <h3>Desserts</h3>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-non-veg" value="Rasmalai">
+                  Rasmalai
+                  <span>Rs. 60</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-non-veg" value="Chocolate Mousse">
+                  Chocolate Mousse
+                  <span>Rs. 100</span>
+                </label>
+              </div>
+               <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-non-veg" value="Mango Lassi">
+                  Mango Lassi
+                  <span>Rs. 80</span>
+                </label>
+              </div>
+              <div class="menu-item">
+                <label>
+                  <input type="checkbox" name="menu-item-drink-non-veg" value="Gulab Jamun">
+                  Gulab Jamun
+                  <span>Rs. 29</span>
+                </label>
+              </div>
+              <!-- Add more non-vegetarian drink items as needed -->
+            </div>
+          </div>
+        </div>
+  
+  
+  
+  
+  
+  
+  
+        <button id="next-button" onclick="saveToDatabase()">Confirm Order</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
